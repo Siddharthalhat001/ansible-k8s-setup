@@ -40,6 +40,8 @@ Paste On second ec-2 at
  
 Congrats you have successfully made the connection
 
+Now to ssh master (paste ip of master and worker in )
+nano /etc/hosts
 
 
 
