@@ -14,19 +14,28 @@ Below commands are for Amzn-Linux
 Download and Install Ansible
 
  yum update -y
+ 
  sudo yum install epel-release -y
+ 
  sudo amazon-linux-extras install epel
+ 
  sudo yum install ansible -y
+ 
  ansible --version
+ 
 
 Generate ssh-key
+
 ssh-keygen -t rsa
 
 #see on which location is generated and paste on other ec2 at same location else it won't work
+
 # ex : Your public key has been saved in /root/.ssh/id_rsa.pub.
+
 cat /root/.ssh/id_rsa.pub 
 
 Paste On second ec-2 at 
+
  nano /root/.ssh/authorized_keys 
  
 Congrats you have successfully made the connection
