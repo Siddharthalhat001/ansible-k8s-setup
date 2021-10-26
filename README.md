@@ -39,8 +39,8 @@ Now to ssh master (paste ip of master and worker in ) nano /etc/hosts of every I
 Step-2
 	Configure before Running
 	Give the actual path i.e pwd for ansible.cfg 
+	
 	Ex : inventory      = /home/ec2-user/ansible-k8s-setup
-
 	Define the labels in Host file
  	Ex : 
 	[masters]
@@ -54,8 +54,9 @@ Step-3
 	k8s-pkg.yml
 	k8s-master.yml
 	k8s-workers.yml
-
 	Commands to run them
+	
+	
 	ansible-playbook k8s-pkg.yml
 	ansible-playbook k8s-master.yml
 	ansible-playbook k8s-workers.yml
