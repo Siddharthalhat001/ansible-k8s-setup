@@ -12,11 +12,15 @@ Use private IP address of Instances
 
 Step-1
 	Below commands are for Amzn-Linux Download and Install Ansible
+	
+	
 	yum update -y
 	sudo yum install epel-release -y
 	sudo amazon-linux-extras install epel
 	sudo yum install ansible -y
 	ansible --version
+	
+	
 	Generate ssh-key
 	ssh-keygen -t rsa
 	#see on which location is generated and paste on other ec2 at same location else it won't work
