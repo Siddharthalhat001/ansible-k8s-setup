@@ -2,8 +2,11 @@ Setup a kubernetes cluster on Linux machines using ansible.
 
 Requirements :
 Ansible controller - ansible -- 1 vcpu / 2 gib ram
+
 Kubernetes Master - master - 2 vcpu / 4 gib ram
+
 Kubernetes Node1 - nodeone - 1 vcpu / 4 gib ram
+
 Kubernetes Node2 - nodetwo - 1 vcpu / 4 gib ram
 
 
